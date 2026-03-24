@@ -3,6 +3,8 @@
 ## TC_LOGIN_001
 **Title:** Verify user can log in with valid credentials  
 
+**Execution Date:** 24 March 2026
+
 **Preconditions:**  
 User is registered and on login page  
 
@@ -17,13 +19,15 @@ Password: Test123
 4. Click login  
 
 **Expected Result:**  
-User logs in successfully  
+User is redirected to the products page and inventory is displayed
 
 **Actual Result:**  
-To be tested  
+User is redirected to the products page and inventory is displayed
 
 **Status:**  
-Not Run   
+Pass
+
+**Tested By:** Hamza Sattar
 
 
 ---
@@ -31,24 +35,46 @@ Not Run
 ## TC_LOGIN_002
 **Title:** Invalid password  
 
+
+**Execution Date:** 24 March 2026
+
+**Preconditions:**  
+User is on login page
+
+**Test Data:**  
+Email: valid user  
+Password: invalid password  
+
 **Steps:**  
 1. Enter valid email  
 2. Enter wrong password  
 3. Click login  
 
 **Expected Result:**  
-Error message shown  
+Error message indicating invalid credentials is displayed 
 
 **Actual Result:**  
-To be tested  
+Error message indicating invalid username or password is displayed
 
 **Status:**  
-Not Run  
+Pass
+
+**Tested By:** Hamza Sattar
 
 ---
 
 ## TC_LOGIN_003
 **Title:** Empty fields  
+
+
+**Execution Date:** 24 March 2026
+
+**Preconditions:**  
+User is on login page
+
+**Test Data:**  
+Email: blank  
+Password: blank  
 
 **Steps:**  
 1. Leave email blank  
@@ -56,10 +82,12 @@ Not Run
 3. Click login  
 
 **Expected Result:**  
-Validation message shown  
+Validation messages are displayed for required fields and login is blocked
 
 **Actual Result:**  
-To be tested  
+Validation messages are displayed and login is prevented
 
 **Status:**  
-Not Run  
+Pass 
+
+**Tested By:** Hamza Sattar
