@@ -4,7 +4,7 @@
 Login page
 
 ## Goal
-To check that users can log in with correct details and get the right error messages when details are wrong or missing.
+To check that users can log in with correct details and that the right error messages are shown when details are wrong or missing.
 
 ## In scope
 - Valid login
