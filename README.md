@@ -11,7 +11,6 @@ I used this project to practise testing a real feature by writing test cases, ch
 - Empty username
 - Empty password
 - Empty fields
-- Locked out user
 - Error messages
 
 ## Testing used
