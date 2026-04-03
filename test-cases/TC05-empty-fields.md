@@ -15,5 +15,5 @@ User was not logged in and an error message appeared
 ## Status
 Pass
 
-## Priority
+## Priority 
 High
