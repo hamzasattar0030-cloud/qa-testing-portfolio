@@ -12,7 +12,6 @@ To check that users can log in with correct details and that the right error mes
 - Blank username
 - Blank password
 - Blank username and password
-- Locked out user
 - Error message behaviour
 
 ## Out of scope
