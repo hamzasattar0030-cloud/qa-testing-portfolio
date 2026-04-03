@@ -14,7 +14,7 @@ Password: blank
 User should not be logged in and should see an error message
 
 ## Actual result
-User was not logged in and an error message appeared
+User was not logged in and an error message appeared 
 
 ## Status
 Pass
