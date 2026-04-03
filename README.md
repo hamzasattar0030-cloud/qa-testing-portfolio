@@ -1,38 +1,32 @@
-# QA Portfolio
+# QA Testing Project – SauceDemo Login
 
-This repository showcases my manual testing skills through structured test cases, execution results, and defect reporting.
+## About this project
+This is a manual testing project based on the SauceDemo login page.
 
-## 📌 Project Overview
-This project focuses on testing the login functionality of a web application using manual testing techniques. The goal was to validate correct behavior, identify potential issues, and document results clearly.
+I used this project to practise testing a real feature by writing test cases, checking different login scenarios, identifying issues, and documenting the results.
 
-## 🧪 Features Tested
-- Login functionality
-- Valid login scenario
-- Invalid login scenario
-- Empty field validation
+## What I tested
+- Valid login
+- Invalid login
+- Empty username
+- Empty password
+- Empty fields
+- Locked out user
+- Error messages
 
-## 📂 Repository Structure
-- `test-cases/` → Contains manual test cases for login functionality  
-- `bug-reports/` → Contains documented defects and observations  
-- `screenshots/` → Contains screenshots as evidence of test execution  
+## Testing used
+- Manual testing
+- Positive testing
+- Negative testing
+- Edge case testing
+- Exploratory testing
 
-## 🛠️ Skills Demonstrated
-- Test case design  
-- Test execution  
-- Positive and negative testing  
-- Validation testing  
-- Bug reporting  
-- Clear documentation  
+## What is included
+- Test cases
+- Bug reports
+- Screenshots
+- Test plan
+- Test summary
 
-## 🧠 Testing Techniques Used
-- Equivalence Partitioning  
-- Boundary Value Analysis  
-- Error Guessing  
-
-## 📅 Test Execution Details
-- Application tested: SauceDemo (demo web application)  
-- Tests executed manually  
-- Results recorded with pass/fail status and actual outcomes  
-
-## 👤 Author
-Hamza Sattar
+## Why I did this
+I wanted to build hands-on QA experience and show how I approach testing in a structured way.
